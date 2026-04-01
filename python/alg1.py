@@ -1,3 +1,5 @@
 
 A = ["Word" , "!!"]
-print(f'Hellow {A}')
+B  = [ "By" , "Moon"]
+print(f'Hello {A}')
+print(A + B )
