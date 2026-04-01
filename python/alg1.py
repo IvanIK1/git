@@ -1,3 +1,3 @@
 
-A = "Word!"
+A = ["Word" , "!!"]
 print(f'Hellow {A}')
