@@ -1,12 +1,12 @@
 
-A = ["Word" , "!!"]
-B  = [ "By" , "Moon"]
-print(f'Hello {A}')
-print(A + B )
-
-def PrintString():
-    A = input()
+def Deler_vowel(St):
+    vowels = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"]
     
-    print(A)
+    st1=""
+    for let in St:
+        if let not in vowels:
+            st1 += let
+    return st1
 
-PrintString()
+A = Deler_vowel("Hello word!")
+print(A)
