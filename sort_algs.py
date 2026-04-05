@@ -34,9 +34,3 @@ def merge(left , right):
     sorted_arr.extend(right[j:])
     return sorted_arr  
 
-# if __name__ == "__main__":
-#     a = [3, 1, 4, 2, 5]
-#     print("Тестирование merge_sort:")
-#     print(merge_sort(a))
-#     print("Тестирование quick_sort:")
-#     print(quick_sort(a)) 
