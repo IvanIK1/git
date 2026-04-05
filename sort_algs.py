@@ -9,7 +9,7 @@ def quick_sort(arr):
 
 a = [3 , 1 , 4 , 2 ,5 ]
 
-# print(quick_sort(a))
+
 
 
 def merge_sort(arr):
