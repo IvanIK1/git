@@ -7,7 +7,7 @@ def quick_sort(arr):
     right_part = [x for x in arr if x > pivat]
     return quick_sort(left_part) +midl + quick_sort(right_part)
 
-a = [3 , 1 , 4 , 2 ,5 ]
+a = [3 , 1 , 4 , 2 ,5 , -3 ]
 
 
 
