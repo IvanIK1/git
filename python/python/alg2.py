@@ -4,7 +4,7 @@ def count_bits(n):
     bin_count = bin_n.count('1')
     return bin_count, bin_n, N
 bin_count, bin_n, N = count_bits(n = 1234)
-print(f'Число: {N}\nДвочиный формат числа {N}:{bin_n}\nКоличество едbниц в двоичном формате числа {N}:{bin_count}')
+# print(f'Число: {N}\nДвочиный формат числа {N}:{bin_n}\nКоличество едbниц в двоичном формате числа {N}:{bin_count}')
 
 def To_bin(n):
     n 
